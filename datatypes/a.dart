@@ -13,4 +13,18 @@ void main(){
 
     double exp=1.42e5;
     print(exp);
+
+
+    // conversion
+
+    int x=int.parse("1");
+    print(x);
+
+    double y=double.parse("5.7");
+    print(y);
+
+    String s1=4.toString();
+    String s2=5.7.toString();
+    
+
 }
