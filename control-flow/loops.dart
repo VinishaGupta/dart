@@ -9,24 +9,12 @@ void main(){
   i++;
  }
 
- int j=0;
+int j=0;
  do{
   print(i);
   i++;
  } while(i<5);
 
 
- for(int i=0;i<5;i++){
-  if(i==3){
-    continue;
-  }
-  print(i);
- }
-
-  for(int i=0;i<5;i++){
-  if(i==3){
-    break;
-  }
-  print(i);
- }
+ 
 }
