@@ -17,7 +17,7 @@ void main(){
   int i=8;
 
   switch(i){
-    case 0:
+    case 0 when i>5:
     print("zero");
 
     case 1:
