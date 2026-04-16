@@ -5,6 +5,8 @@ void main(){
 
   if(false){
     print(0);
+  } else{
+    print(1);
   }
 
   
