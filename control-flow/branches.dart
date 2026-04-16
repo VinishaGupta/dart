@@ -12,5 +12,19 @@ void main(){
   } else{
     print(1);
   }
+
+
+  int i=8;
+
+  switch(i){
+    case 0:
+    print("zero");
+
+    case 1:
+    print("one");
+
+    default:
+    print("invalid");
+  }
   
 }
