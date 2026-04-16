@@ -27,4 +27,13 @@ void main(){
     print("invalid");
   }
   
+
+  // labels
+
+  loop1:
+  for(int i=0;i<3;i++){
+  
+    if(i==2) continue loop1;
+    print(i);
+  }
 }
