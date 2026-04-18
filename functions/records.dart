@@ -8,6 +8,7 @@ var abc=fun(2, "xyz");
 
 // getters
 print(abc.$2);
+print(abc.$2.runtimeType);
 
 }
 
