@@ -2,6 +2,7 @@ import 'Student.dart';
 
 void main(){
   print(Student.d);
+  Student.fun();
     Student s1=new Student();
     print(s1.age);
     print(s1.name);

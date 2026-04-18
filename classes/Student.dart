@@ -4,6 +4,10 @@ class Student {
 
   static double d=12.2;
 
+  static void fun(){
+    print(d*100);
+  }
+
   Student()
   : age=0,
   name="student";
@@ -17,4 +21,6 @@ class Student {
    void hello(){
       print('Hello,${this.name}');
     }
+
+
 }
