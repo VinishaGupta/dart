@@ -1,5 +1,5 @@
-rint(abc);
+// print(abc);
 
-// var (a,b)=fun2();
-// print(a);
-// print(b);
+// // var (a,b)=fun2();
+// // print(a);
+// // print(b);
