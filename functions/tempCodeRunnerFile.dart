@@ -1,2 +1,5 @@
-  // fun1(1,2);
-  // fun1(1);
+rint(abc);
+
+// var (a,b)=fun2();
+// print(a);
+// print(b);
