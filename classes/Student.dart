@@ -2,6 +2,8 @@ class Student {
   int age;
   String name;
 
+  static double d=12.2;
+
   Student()
   : age=0,
   name="student";
