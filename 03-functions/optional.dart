@@ -9,11 +9,16 @@ void fun2(int a,{var b,var c}){
   print(c);
 }
 
+void fun3(int a,{int b=7}){
+  print(a);
+  print(b);
+}
+
 void main(){
   // fun1(1,2);
   // fun1(1);
 
-  fun2(2,b:4,c:6);
-  fun2(3,c:4);
+  // fun2(2,b:4,c:6);
+  // fun2(3,c:4);
 }
 
