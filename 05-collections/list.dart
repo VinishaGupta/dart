@@ -8,4 +8,8 @@ print(list.length);
 list[2]=100;
 print(list);
 
+List<int> list2=[3,4,1];
+print(list2);
+
+
 }
