@@ -1,8 +1,32 @@
+// import 'package:flutter/material.dart';
+
+// void main() {
+  
+// }
+
+// class runApp{
+//   return MaterialApp(
+//     home:Text("Home"),
+//   ))
+// }
+
+
+// ====================================================
+
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-    home: Container(
-  color: Colors.yellow,
-    )
-  ));
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Text("Home"),
+      ),
+    );
+  }
+}
+
