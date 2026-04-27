@@ -4,10 +4,12 @@ Animal a=Animal();
 a.sound();
 print(a.a);
 
+print("=====================");
 Dog d=Dog();
 d.sound();
 print(d.a);
 
+print("=====================");
 
 Animal m=Dog();
 m.sound();
@@ -30,7 +32,7 @@ class Animal{
 }
 
 class Dog extends Animal{
-  int a=10;
+  int a=15;
 
   Dog(){
     print("dog constructor called");
